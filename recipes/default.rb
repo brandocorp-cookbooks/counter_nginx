@@ -25,6 +25,6 @@
 # THE SOFTWARE.
 
 node.set['nginx']['conf_template'] = 'nginx.conf.erb'
-node.set['nginx']['conf_cookbook'] = cookbook
+node.set['nginx']['conf_cookbook'] = cookbook_name
 
 include_recipe 'nginx::default'
